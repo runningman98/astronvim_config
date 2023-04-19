@@ -18,6 +18,7 @@ return {
       -- },
       null_ls.builtins.formatting.djlint.with {
         extra_args = { "--indent", "2" },
+        extra_filetypes = { "html" },
       },
     }
     return config -- return final config table
